@@ -1,0 +1,36 @@
+During a programming contest for students, each contestant had to solve 3 problems (named P1, P2 and P3). Afterwards,
+ an evaluation committee graded the solution to each of the problems solved by the contestants using integers between
+ 0 and 10.
+ The committee needs a program that will allow managing the list of scores and establishing the winners.
+  Write a program that will.
+ implement the following functionalities (each functionality is exemplified):
+1. Add the result of a new participant.
+add <P1 score> <P2 score> <P3 score>
+insert <P1 score> <P2 score> <P3 score> at <position>
+e.g.
+add 3 8 10 – add a new participant with scores 3,8 and 10 (scores for P1, P2, P3 respectively). insert 10 10 9 at 5 –
+insert scores 10,10 and 9 at position 5 in the list (positions are numbered from 0).
+2. Modify the scores from the list. remove <position>
+remove <start position> to <end position>
+replace <old score> <P1 | P2 | P3> with <new score>
+e.g.
+remove 1 – set the scores of the participant at position 1 to 0.
+remove 1 to 3 – set the scores of participants at positions 1,2, and 3 to 0. replace 4 P2 with 5 –
+replace the score obtained by participant 4 at P2 with 5.
+
+3. Write the participants whose score has different properties.
+list
+list sorted
+list [ < | = | > ] <score>
+e.g.
+list – write the list of participants and their scores for each problem.
+
+ 5. Filter the list.
+filter real
+filter modulo [ < | = | > ] <number>
+e.g.
+
+
+list < 40 – write the participants having an average score < 40.
+list = 67 – write the participants having an average score = 67.
+list sorted – write the participants sorted in decreasing order of their average score.

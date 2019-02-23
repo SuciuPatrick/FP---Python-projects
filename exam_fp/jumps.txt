@@ -1,0 +1,5 @@
+Patrick,32.47,12,-3
+Robert,15.35,10,2
+Cristi,12.5,10,2
+Paul,13.5,10,2
+Gregory,1,10,5
